@@ -1,0 +1,10 @@
+# dependencies for tools/knowledge_updater.py
+# crawl4ai is the primary web-crawl fetcher; optional - the tool falls back to
+# the standard library (urllib) when it is not installed.
+crawl4ai>=0.3.0
+
+# optional nicer HTTP client for the fallback fetcher; urllib is used otherwise.
+requests>=2.31.0
+
+# dev/test only
+pytest>=7.4.0
